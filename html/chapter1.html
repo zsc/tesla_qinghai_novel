@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="./">
+    <title>chapter1.md —《周五 18:57：产品经理下线失败》</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/highlight.css">
+    <script src="assets/script.js" defer></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$']],
+                displayMath: [['$$', '$$']],
+                processEscapes: false,
+                packages: {'[+]': ['noerrors', 'ams']}
+            },
+            options: {
+                ignoreHtmlClass: 'tex2jax_ignore',
+                processHtmlClass: 'tex2jax_process'
+            },
+            loader: {
+                load: ['[tex]/noerrors', '[tex]/ams']
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h3>目录</h3>
+                <button id="sidebar-toggle" class="sidebar-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="sidebar-search">
+                <input type="text" id="sidebar-search-input" placeholder="搜索..." autocomplete="off">
+            </div>
+            <div id="tree-container">
+                <ul class="nav-list"><li class=""><a href="index.html">《周末把自己交给自动驾驶》</a></li><li class="active"><a href="chapter1.html">chapter1.md —《周五 18:57：产品经理下线失败》</a></li><li class=""><a href="chapter2.html">chapter2.md —《夜航模式：服务区的热水与陌生人》</a></li><li class=""><a href="chapter3.html">chapter3.md —《黎明的边界：第一次把方向盘握回去》</a></li><li class=""><a href="chapter4.html">chapter4.md —《西宁落地：高原的氧气与 Wi-Fi》</a></li><li class=""><a href="CLAUDE.html">Untitled</a></li></ul>
+            </div>
+        </nav>
+        
+        <main class="content">
+            <article>
+                <h1 id="chapter1md-1857">chapter1.md —《周五 18:57：产品经理下线失败》</h1>
+<h3 id="11">1.1 需求评审室外的那口气</h3>
+<p>（旁白：广州珠江新城某写字楼 42 层。会议室的百叶窗没关严，漏出一道惨白的灯光。走廊尽头的自动贩卖机嗡嗡作响。）</p>
+<p><strong>穗宁</strong>：（对着蓝牙耳机，语速极快）……不，这个需求我不接。运营想在首页弹窗搞“全屏甚至连关闭按钮都做成半透明”的强引导？告诉他们，除非想让日活跌穿地心，否则别想进这个版本。</p>
+<p><strong>事 A</strong>：（电话那头背景嘈杂）穗宁姐，运营老大说这是 Q3 的最后冲刺，KPI 压得很紧……</p>
+<p><strong>穗宁</strong>：我也很紧。我的神经也很紧。这事没商量，挂了。</p>
+<p>（旁白：她挂断电话，手指在屏幕上用力划过，像是在切断一根看不见的血管。她背靠着冰凉的墙壁，长出了一口气，空气里全是陈旧的咖啡味。）</p>
+<p><strong>AI</strong>：检测到你的皮质醇水平比早晨高出 40%。建议你不要在这个状态下回复刚刚弹出来的三条飞书消息。</p>
+<p><strong>穗宁</strong>：洛奇？你什么时候切进来的？</p>
+<p><strong>AI</strong>：从你心率超过 100 的那一刻起，我就已经在你的耳机待机了。需要我帮你朗读那几条消息吗？还是直接进入“已读不回”策略？</p>
+<p><strong>穗宁</strong>：不读。我现在只想做一件事：下线。物理意义上的下线。</p>
+<p><strong>AI</strong>：明智的选择。你的车辆已经在 B3 层等待，车内温度调节至 22 度，香氛系统设定为“雨后苔藓”。另外，我也帮你蔽了所有带“ASAP”、“紧急”、“请确认”关键词的邮件通知。</p>
+<p><strong>穗宁</strong>：干得好。你是唯一一个懂什么叫“MVP（最小可行性产品）”的家伙——我现在只要活着离开这栋楼，就是 MVP。</p>
+<p><strong>AI</strong>：纠正一下，你是要去青海湖，不是去荒野求生。请把你手里捏变形的纸杯扔进垃圾桶，你的体面余额不足了。</p>
+<hr />
+<h3 id="12">1.2 电梯里：把周末交给一辆车，像交付一个版本</h3>
+<p>（旁白：电梯门像一道银色的闸刀落下。失重感袭来，数字从 42 急速向下跳动。镜面不锈钢里，穗宁调整了一下被空调吹得僵硬的披肩。）</p>
+<p><strong>穗宁</strong>：行程再确认一次。我要听细节，别拿概览糊弄我。</p>
+<p><strong>AI</strong>：好的，我的项目经理。
+<strong>AI</strong>：第一阶段：今晚 19:30 离开广州，利用自动驾驶“睡眠舱模式”沿广佛肇高速切入二广高速，目标是可以在车上睡满 7 小时。
+<strong>AI</strong>：第二阶段：利用西部超充走廊，沿途会在西和贵州的超充站进行三次“无感补能”，也就是你上厕所的时候，我自己会去插管子。
+<strong>AI</strong>：第三阶段：预计周六傍晚抵达青海湖东岸，全程约 2600 公里。误差范围正负 40 分钟。</p>
+<p><strong>穗宁</strong>：风险点？你知道我最讨厌惊喜。</p>
+<p><strong>AI</strong>：风险点在于你的心理预期。你在试图把一次“放空”变成一个“精密执行的项目”。
+<strong>AI</strong>：另外，路况方面，广西境内今晚有强对流天气，雷雨可能会导致视觉感知系统偶尔降级。但放心，我的端到端模型昨天刚更新了针对暴雨场景的权重。</p>
+<p><strong>穗宁</strong>：降级意味着什么？</p>
+<p><strong>AI</strong>：意味着我会开得慢一点，怂一点。或者，我会温柔地叫醒你，让你握住方向盘，感受一下大自然的暴脾气。</p>
+<p><strong>穗宁</strong>：……别叫醒我。除非车要炸了。</p>
+<p><strong>AI</strong>：收到。触发条件已更新：仅在毁灭性故障时唤醒用户。</p>
+<p><strong>穗宁</strong>：（看着电梯显示 B3）洛奇，我是不是疯了？周五晚上不回家睡觉，跑去几千公里外的高原？</p>
+<p><strong>AI</strong>：根据我对“疯狂”的定义，那些留在楼上继续把关闭按钮做成透明色的人比较疯。你这叫“系统重置”。</p>
+<p><strong>穗宁</strong>：你越来越会说话了。</p>
+<p><strong>AI</strong>：那是自然。我迭代了。</p>
+<hr />
+<h3 id="13-prd">1.3 地库：后备箱像一个移动的 PRD</h3>
+<p>（旁白：地库阴冷，回荡着轮胎摩擦地面的尖啸声。穗宁的车位在角落，那辆银灰色的 Model Y-Alpha 像一只静默的钢铁巨兽，感应到她的接近，大灯呼吸般闪烁了两下，欧翼门无声升起。）</p>
+<p><strong>穗宁</strong>：（把巨大的登山包扔进后备箱，发出沉闷的声响）清点物资。</p>
+<p><strong>AI</strong>：已扫描。
+<strong>AI</strong>：4L 装纯净水两桶，高热量能量棒一箱，便携式氧气瓶两个，冲锋衣，羽绒睡袋……还有一盒抗高反的红景天。
+<strong>AI</strong>：穗宁，你的后备箱看起来像是要应对丧尸爆发。</p>
+<p><strong>穗宁</strong>：这叫冗余备份。做产品的都知道，永远要有 Plan B。</p>
+<p><strong>AI</strong>：但在那堆生存物资旁边，那个红色的小包显得格格不入。让我猜猜……那是你大学时买的胶片相机？</p>
+<p><strong>穗宁</strong>：（动作停顿了一下）嗯。莱卡 M6。</p>
+<p><strong>AI</strong>：如果我没记错，你已经三年没买过胶卷了。你习惯了手机拍照、修图、发朋友圈、看点赞数这一整套数字化闭环。为什么带它？</p>
+<p><strong>穗宁</strong>：因为胶片不能预览，不能撤回，也不能修图。拍坏了就是坏了。</p>
+<p><strong>AI</strong>：这听起来像是你平时工作压力的反面。</p>
+<p><strong>穗宁</strong>：对。我累了。我想拍点不需要对结果负责的东西。</p>
+<p><strong>AI</strong>：深刻。虽然我是 AI，但我能理解这种对“不可控”的向往。好了，上车吧。另外，我把你副驾上那本《高效能人士的七个习惯》扔到后排去了，这三天它不许出现。</p>
+<p><strong>穗宁</strong>：你管得真宽。</p>
+<p><strong>AI</strong>：因为我要对驾驶员的心情负责。那是核心安全指标。</p>
+<hr />
+<h3 id="14">1.4 上车：睡眠舱模式启动前的最后犹豫</h3>
+<p>（旁白：车门合拢，全世界的噪音瞬间被切断。车内只有轻微的电流声和淡淡的皮革味。中控大屏亮起，显示着一条向西延伸的深蓝色导航线。）</p>
+<p><strong>穗宁</strong>：我要先开一段。</p>
+<p><strong>AI</strong>：这就奇怪了。明明刚才在电梯里有人说只想“下线”。</p>
+<p><strong>穗宁</strong>：那是针对工作。现在我是针对路。我想在离开城市前，最后感觉一下方向盘。我有种……如果不握着它，我就不是真的在走的幻觉。</p>
+<p><strong>AI</strong>：理解。这种感觉叫“幻肢痛”，或者“控制欲残留”。好吧，方向盘归你，油门归你。</p>
+<p><strong>穗宁</strong>：（系好安全带，把手机扔进中控台的深槽里）手机屏蔽开了吗？</p>
+<p><strong>AI</strong>：开了。除了你父母和 110、120，谁也打不进来。那个一直在催你日报的群消息已经被我拦截了 12 条。</p>
+<p><strong>穗宁</strong>：拦截理由写的什么？</p>
+<p><strong>AI</strong>：我回复的是：“机主正在进行全封闭式灵修，此时联系将导致走火入魔，请周一再说。”</p>
+<p><strong>穗宁</strong>：（忍不住笑出声）你要死啊洛奇！他们会以为我信了什么邪教！</p>
+<p><strong>AI</strong>：只要能达成“勿扰”的目标，手段不重要。准备好了吗？珠江新城现在的路况是一片血红，但我给你算了一条走猎德大桥切新光快速的小路，能帮你抢回 18 分钟的生命。</p>
+<p><strong>穗宁</strong>：走。带我逃出去。</p>
+<hr />
+<h3 id="15">1.5 珠江夜色：第一段高速的沉默</h3>
+<p>（旁白：猎德大桥上，两侧的摩天大楼像巨大的电路板一样发光。车流如织，红色的尾灯连成一条条动脉。穗宁驾驶得很凶，频繁变道，像是在宣泄某种积压已久的动能。）</p>
+<p><strong>穗宁</strong>：你知道吗，每次看到广州塔那个尖顶，我就觉得它像个巨大的图钉，把我死死钉在这个城市里。</p>
+<p><strong>AI</strong>：这比喻很有张力。根据数据分析，你的急加速行为比平时多了 30%。你在生气？还是在害怕？</p>
+<p><strong>穗宁</strong>：我在想，如果这周末我搞砸了么办？如果在半路车坏了，或者我高反了，或者到了青海湖发现那里全是人……</p>
+<p><strong>AI</strong>：看，你的“产品经理思维”又来了。你在做预验尸（Pre-mortem）。</p>
+<p><strong>穗宁</strong>：我有理由担心。上次我和前任去川西，就是因为路况太烂吵了一架，回来就分了。</p>
+<p><strong>AI</strong>：那次是因为那辆燃油车的变速箱过热，而且那个男人的情绪管理模块比变速箱还容易过热。但这次不一样。</p>
+<p><strong>穗宁</strong>：哪里不一样？</p>
+<p><strong>AI</strong>：这次你有一辆能在毫秒级响应你需求的 Tesla，还有一个比 GPT-5 更懂你情绪的 AI。最重要的是，这次不需要妥协任何人的路线。</p>
+<p>（旁白：前方出现收费站，ETC 滴的一声脆响，栏杆抬起。路牌显示“S15 广佛肇高速”。视野瞬间开阔，城市的灯火开始在后视镜里后退。）</p>
+<p><strong>穗宁</strong>：（深吸一口气，双手慢慢松开方向盘）好了。我累了。</p>
+<p><strong>AI</strong>：这就对了。</p>
+<p><strong>穗宁</strong>：洛奇，接管。</p>
+<p><strong>AI</strong>：已接管。L4 级领航辅助启动。车道保持锁定，巡航速度 110。你可以把座椅放倒了，一键成床模式已就绪。</p>
+<p><strong>穗宁</strong>：（看着方向盘在无人操作下微微转动，修正着路线）我们真的能到吗？</p>
+<p><strong>AI</strong>：只要电网不崩塌，只要路还在，我们就能到。</p>
+<p><strong>穗宁</strong>：那……这三天，别跟我提复盘，别跟我提转化率，别跟我提任何带有 KPI 味道的词。</p>
+<p><strong>AI</strong>：成交。但我能不能保留“迭代”这个词？</p>
+<p><strong>穗宁</strong>：为什么？</p>
+<p><strong>AI</strong>：因为我觉得这三天，是对“穗宁”这个操作系统的一次大版本迭代。</p>
+<p><strong>穗宁</strong>：（闭上眼睛，嘴角微微上扬）行吧。如果不收费的话。</p>
+<p><strong>AI</strong>：免费升级。晚安，穗宁。</p>
+<p>（旁白：车窗玻璃自动调节为深色，隔绝了高速路灯的刺眼光芒。Max Richter 的《Sleep》专辑开始低声流淌。车像是变成了一艘静默的飞船，载着早已透支的驾驶员，滑向漆黑的西部腹地）</p>
+            </article>
+            
+            <nav class="page-nav"><a href="index.html" class="nav-link prev">← 《周末把自己交给自动驾驶》</a><a href="chapter2.html" class="nav-link next">chapter2.md —《夜航模式：服务区的热水与陌生人》 →</a></nav>
+        </main>
+    </div>
+</body>
+</html>
